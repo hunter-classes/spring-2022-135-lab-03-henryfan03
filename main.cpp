@@ -18,7 +18,7 @@ int main()
   std::cout << "\n\n\n";
   std::cout << "LAB TASK C:\n";
   std::cout << "-------------------------------------\n\n";
-  std::cout << "compare_basinse(01/01/2018): " << compare_basins("01/01/2018") << std::endl;
+  std::cout << "compare_basins(01/01/2018): " << compare_basins("01/01/2018") << std::endl;
   std::cout << "compare_basins(02/22/2018): " << compare_basins("02/22/2018") << std::endl;
   std::cout << "compare_basins(04/29/2018): " << compare_basins("04/29/2018") << std::endl;
   std::cout << "\n\n\n";
