@@ -27,6 +27,5 @@ int main()
   std::cout << "reverse_order('05/29/2018','06/02/2018'):\n";
   reverse_order("05/29/2018","06/02/2018");
   std::cout << "\n\n\n";
-
   return 0;
 }
