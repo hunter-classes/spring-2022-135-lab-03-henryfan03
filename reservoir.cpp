@@ -89,7 +89,12 @@ std::string compare_basins(std::string date) {
 			if (time == date)
 			{
 				fin.close();
-				return eastSt;
+        if (eastEl > westEl) {
+          return "East";
+        }
+        else if (westEl > eastEl) {
+          return "West";
+        }
 			}
     }
   }
